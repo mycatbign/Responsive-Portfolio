@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jeff Bond Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="headerRow">
+    <div class="wrapper">
+      <a href="index.html" id="nameBlock">Jeff Bond</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="mainWrapper" class="wrapper">
+    <section class="mainSection">
+      <h1>Contact Me</h1>
+
+      <form id="contactForm">
+        <!-- Get Contact's name-->
+        <ul>
+          <li>
+            <label for="contactName">Name</label>
+            <input type="text" id="contactName" name="contactName" placeholder="John Smith" required="required">
+          </li>
+
+          <!--Get Contact's email address-->
+          <li>
+            <label for="contactEmail">Email</label>
+            <input type="text" id="contactEmail" name="contactEmail" placeholder="example@gmail.com" required="required">
+          </li>
+
+          <!--Get message from the contact-->
+          <li>
+            <label for="contactMessage">Message</label>
+            <textarea type="text" id="contactMessage" name="contactMessage" required="required"></textarea>
+          </li>
+        </ul>
+
+        <!--Submit-->
+        <button id="submitButton" type="submit" form=nameform" value="Submit">Submit</button>
+      </form>
+      <br>
+  </div>
+
+  <footer class="footer">
+    <p>Copyright &#169 2018 Jeff Bond</p>
+  </footer>
+
+</body>
+
+</html>
